@@ -744,6 +744,7 @@ export const threads: SutraThread[] = [
             paragraphs: [
               "I'm Prasana, an alumna of Isha Samskriti and a trained Carnatic violinist with over 9 years of experience in Indian classical music. I have been teaching violin for the past 5 years, guiding students through a structured and engaging learning journey.",
               "I conduct both online and offline classes for students aged 6 and above. My lessons are designed to build a strong foundation in technique, musical understanding, and overall artistry. Along with violin training, I also provide foundational vocal guidance to help students develop pitch, rhythm, and musical sensitivity.",
+              "In addition to my journey as a Violinist and Teacher, my artistic practice extends to professional Bharatanatyam, and I perform with the Dakshina Repertory under the guidance of Smt. Divya Nayar.",
             ],
           },
         ],
@@ -986,12 +987,8 @@ export const threads: SutraThread[] = [
     color: "#6BAA75",
     heroImage: "/images/threads/jeevan-sutra/hero.jpg",
     heroImagePosition: "center top",
-    images: [
-      "/images/threads/jeevan-sutra/photo-1.jpg",
-      "/images/gallery/aum-sound-of-creation.jpg",
-      "/images/gallery/hatha-yoga-practice-session.jpg",
-    ],
-    imagePositions: ["center top", "center", "center"],
+    images: ["/images/threads/jeevan-sutra/photo-1.jpg"],
+    imagePositions: ["center top"],
     description:
       "A transformative thread dedicated to the whole person — cultivating a personality that is grounded, aware, and expressed with clarity and confidence.",
     longDescription:
