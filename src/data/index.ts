@@ -783,11 +783,12 @@ export const threads: SutraThread[] = [
     heroImage: "/images/threads/aarogya-dhara/hero.jpg",
     heroImagePosition: "center top",
     images: [
-      "/images/threads/aarogya-dhara/photo-1.jpg",
-      "/images/threads/aarogya-dhara/photo-2.jpg",
-      "/images/threads/aarogya-dhara/photo-3.jpg",
+      "/images/threads/aarogya-dhara/photo-1.jpeg",
+      "/images/threads/aarogya-dhara/photo-2.jpeg",
+      "/images/threads/aarogya-dhara/photo-3.jpeg",
+      "/images/threads/aarogya-dhara/photo-4.jpeg",
     ],
-    imagePositions: ["center top", "center top", "center top"],
+    imagePositions: ["center top", "center top", "center top", "center top"],
     description:
       "A holistic thread of healing — where Panchagavya, Siddha, Ayurveda, and Physiotherapy come together in service of complete, natural wellness.",
     longDescription:
@@ -946,11 +947,22 @@ export const threads: SutraThread[] = [
     heroImagePosition: "center 8%",
     images: [
       "/images/threads/vastra-dhara/photo-1.jpg",
-      "/images/threads/vastra-dhara/photo-2.jpg",
+      "/images/threads/vastra-dhara/photo-2.png",
       "/images/threads/vastra-dhara/photo-3.jpg",
       "/images/threads/vastra-dhara/photo-4.jpg",
+      "/images/threads/vastra-dhara/photo-5.png",
+      "/images/threads/vastra-dhara/photo-6.png",
+      "/images/threads/vastra-dhara/photo-7.png",
     ],
-    imagePositions: ["center top", "center top", "center top", "center top"],
+    imagePositions: [
+      "center top",
+      "center top",
+      "center top",
+      "center top",
+      "center top",
+      "center top",
+      "center top",
+    ],
     description:
       "A sacred thread of cloth and consciousness — where what you wear becomes an act of awareness, comfort, and inner alignment.",
     longDescription:
