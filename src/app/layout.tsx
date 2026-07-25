@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Bebas_Neue } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import { GYM_EMAIL, GYM_PHONE, GYM_WHATSAPP, SITE_URL, threads, trainers } from "@/data";
 
@@ -169,6 +170,7 @@ export default function RootLayout({
         />
         {children}
       </body>
+      <GoogleAnalytics gaId="G-M5K86KPM34" />
     </html>
   );
 }

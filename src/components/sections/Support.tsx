@@ -75,8 +75,7 @@ export default function Support() {
                 href={whatsappHref}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.2em] uppercase text-white px-6 py-4 transition-opacity hover:opacity-90"
-                style={{ backgroundColor: "#25D366" }}
+                className="inline-flex items-center gap-2 bg-gym-red hover:bg-gym-red-dark text-xs font-semibold tracking-[0.2em] uppercase text-white px-6 py-4 transition-colors duration-200"
               >
                 <MessageCircle size={14} />
                 WhatsApp Us

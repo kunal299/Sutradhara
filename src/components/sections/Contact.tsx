@@ -87,8 +87,7 @@ export default function Contact() {
                 href={whatsappHref}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 mb-10 px-6 py-4 font-semibold text-sm tracking-wider text-white transition-opacity hover:opacity-90 active:scale-95"
-                style={{ backgroundColor: "#25D366" }}
+                className="inline-flex items-center gap-3 mb-10 px-6 py-4 font-semibold text-sm tracking-wider text-white bg-gym-red hover:bg-gym-red-dark transition-colors duration-200 active:scale-95"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="white" className="w-5 h-5 shrink-0">
                   <path d="M16 0C7.163 0 0 7.163 0 16c0 2.822.737 5.469 2.027 7.77L0 32l8.489-2.002A15.93 15.93 0 0 0 16 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm7.265 19.472c-.398-.199-2.355-1.162-2.72-1.294-.365-.133-.631-.199-.897.199-.266.398-1.029 1.294-1.262 1.56-.232.266-.465.299-.863.1-.398-.199-1.681-.619-3.202-1.978-1.183-1.057-1.981-2.363-2.213-2.761-.232-.398-.025-.613.174-.811.179-.178.398-.465.597-.697.199-.232.266-.398.399-.664.133-.266.066-.498-.033-.697-.1-.199-.897-2.162-1.229-2.96-.324-.776-.653-.671-.897-.683l-.764-.013c-.266 0-.697.1-1.063.498-.365.398-1.396 1.362-1.396 3.323s1.429 3.854 1.628 4.12c.199.266 2.812 4.294 6.813 6.023.952.411 1.695.657 2.274.841.955.304 1.825.261 2.513.158.766-.115 2.355-.963 2.688-1.893.332-.931.332-1.729.232-1.893-.099-.166-.365-.266-.763-.465z" />
@@ -160,8 +159,7 @@ export default function Contact() {
                     href={whatsappHref}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-2 inline-flex items-center gap-2 text-sm font-semibold text-white px-5 py-3 transition-opacity hover:opacity-90"
-                    style={{ backgroundColor: "#25D366" }}
+                    className="mt-2 inline-flex items-center gap-2 text-sm font-semibold text-white bg-gym-red hover:bg-gym-red-dark px-5 py-3 transition-colors duration-200"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="white" className="w-4 h-4">
                       <path d="M16 0C7.163 0 0 7.163 0 16c0 2.822.737 5.469 2.027 7.77L0 32l8.489-2.002A15.93 15.93 0 0 0 16 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm7.265 19.472c-.398-.199-2.355-1.162-2.72-1.294-.365-.133-.631-.199-.897.199-.266.398-1.029 1.294-1.262 1.56-.232.266-.465.299-.863.1-.398-.199-1.681-.619-3.202-1.978-1.183-1.057-1.981-2.363-2.213-2.761-.232-.398-.025-.613.174-.811.179-.178.398-.465.597-.697.199-.232.266-.398.399-.664.133-.266.066-.398.066-.498-.033-.697-.1-.199-.897-2.162-1.229-2.96-.324-.776-.653-.671-.897-.683l-.764-.013c-.266 0-.697.1-1.063.498-.365.398-1.396 1.362-1.396 3.323s1.429 3.854 1.628 4.12c.199.266 2.812 4.294 6.813 6.023.952.411 1.695.657 2.274.841.955.304 1.825.261 2.513.158.766-.115 2.355-.963 2.688-1.893.332-.931.332-1.729.232-1.893-.099-.166-.365-.266-.763-.465z" />
@@ -292,8 +290,7 @@ export default function Contact() {
                     href={whatsappHref}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-full py-4 text-sm font-semibold tracking-[0.2em] uppercase flex items-center justify-center gap-2 text-white transition-opacity hover:opacity-90 cursor-pointer"
-                    style={{ backgroundColor: "#25D366" }}
+                    className="w-full py-4 text-sm font-semibold tracking-[0.2em] uppercase flex items-center justify-center gap-2 text-white bg-gym-red hover:bg-gym-red-dark transition-colors duration-200 cursor-pointer"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="white" className="w-4 h-4">
                       <path d="M16 0C7.163 0 0 7.163 0 16c0 2.822.737 5.469 2.027 7.77L0 32l8.489-2.002A15.93 15.93 0 0 0 16 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm7.265 19.472c-.398-.199-2.355-1.162-2.72-1.294-.365-.133-.631-.199-.897.199-.266.398-1.029 1.294-1.262 1.56-.232.266-.465.299-.863.1-.398-.199-1.681-.619-3.202-1.978-1.183-1.057-1.981-2.363-2.213-2.761-.232-.398-.025-.613.174-.811.179-.178.398-.465.597-.697.199-.232.266-.398.399-.664.133-.266.066-.498-.033-.697-.1-.199-.897-2.162-1.229-2.96-.324-.776-.653-.671-.897-.683l-.764-.013c-.266 0-.697.1-1.063.498-.365.398-1.396 1.362-1.396 3.323s1.429 3.854 1.628 4.12c.199.266 2.812 4.294 6.813 6.023.952.411 1.695.657 2.274.841.955.304 1.825.261 2.513.158.766-.115 2.355-.963 2.688-1.893.332-.931.332-1.729.232-1.893-.099-.166-.365-.266-.763-.465z" />

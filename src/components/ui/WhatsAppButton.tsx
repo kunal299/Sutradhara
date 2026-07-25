@@ -50,13 +50,10 @@ export default function WhatsAppButton() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Chat on WhatsApp"
-            className="relative w-14 h-14 rounded-full flex items-center justify-center shadow-2xl"
-            style={{ backgroundColor: "#25D366" }}
+            className="relative w-14 h-14 rounded-full flex items-center justify-center shadow-2xl bg-gym-red hover:bg-gym-red-dark transition-colors duration-200"
             onMouseEnter={() => setTooltip(true)}
             onMouseLeave={() => setTooltip(false)}
           >
-            {/* Pulse ring */}
-            <span className="absolute inset-0 rounded-full animate-ping opacity-30" style={{ backgroundColor: "#25D366" }} />
             {/* WhatsApp SVG icon */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
