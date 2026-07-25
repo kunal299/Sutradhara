@@ -3,7 +3,6 @@ import { ImageResponse } from "next/og";
 export const size = { width: 32, height: 32 };
 export const contentType = "image/png";
 
-const BLACK = "#060A07";
 const RED = "#E8831A";
 
 export default function Icon() {
@@ -16,7 +15,6 @@ export default function Icon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: BLACK,
         }}
       >
         <div
@@ -24,16 +22,16 @@ export default function Icon() {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            width: 22,
-            height: 22,
+            width: 23,
+            height: 23,
             position: "relative",
           }}
         >
           <div
             style={{
               position: "absolute",
-              width: 16,
-              height: 16,
+              width: 17,
+              height: 17,
               border: `3px solid ${RED}`,
               transform: "rotate(45deg)",
               display: "flex",
@@ -41,8 +39,8 @@ export default function Icon() {
           />
           <div
             style={{
-              width: 5,
-              height: 5,
+              width: 6,
+              height: 6,
               borderRadius: 9999,
               background: RED,
               display: "flex",

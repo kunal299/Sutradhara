@@ -3,7 +3,6 @@ import { ImageResponse } from "next/og";
 export const size = { width: 180, height: 180 };
 export const contentType = "image/png";
 
-const BLACK = "#060A07";
 const RED = "#E8831A";
 
 export default function AppleIcon() {
@@ -16,7 +15,6 @@ export default function AppleIcon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: BLACK,
         }}
       >
         <div
@@ -24,25 +22,25 @@ export default function AppleIcon() {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            width: 110,
-            height: 110,
+            width: 150,
+            height: 150,
             position: "relative",
           }}
         >
           <div
             style={{
               position: "absolute",
-              width: 80,
-              height: 80,
-              border: `13px solid ${RED}`,
+              width: 95,
+              height: 95,
+              border: `15px solid ${RED}`,
               transform: "rotate(45deg)",
               display: "flex",
             }}
           />
           <div
             style={{
-              width: 26,
-              height: 26,
+              width: 32,
+              height: 32,
               borderRadius: 9999,
               background: RED,
               display: "flex",
