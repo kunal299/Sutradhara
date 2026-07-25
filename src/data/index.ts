@@ -731,7 +731,9 @@ export const threads: SutraThread[] = [
           },
         ],
         images: [
-          "/images/threads/sangeet-dhara/people/nagapushpa/photo-1.jpeg",
+          "/images/threads/sangeet-dhara/people/nagapushpa/photo-1.JPG",
+          "/images/threads/sangeet-dhara/people/nagapushpa/photo-2.JPG",
+          "/images/threads/sangeet-dhara/people/nagapushpa/photo-3.JPG",
         ],
       },
       {
