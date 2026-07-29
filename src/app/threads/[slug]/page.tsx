@@ -336,7 +336,7 @@ export default async function ThreadPage({
           </section>
         )}
 
-        {/* ── PHOTO GALLERY — fixed 6-slot grid, placeholders fill any gap ── */}
+        {/* ── PHOTO GALLERY ── */}
         <section className="py-20 bg-gym-black border-t border-gym-border">
           <div className="container mx-auto px-6">
             <div className="flex items-center gap-4 mb-16">

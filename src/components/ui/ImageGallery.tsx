@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { ImageOff, X, ZoomIn } from "lucide-react";
+import { X, ZoomIn } from "lucide-react";
 
 interface Props {
   images: string[];
@@ -16,9 +16,8 @@ export default function ImageGallery({ images, imagePositions, color, label, max
   const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(null);
 
   const shown = images.slice(0, max);
-  const placeholderCount = max - shown.length;
   const gridCols =
-    max <= 3
+    shown.length <= 3
       ? "grid-cols-1 sm:grid-cols-3"
       : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3";
 
@@ -54,22 +53,6 @@ export default function ImageGallery({ images, imagePositions, color, label, max
             </button>
           );
         })}
-
-        {Array.from({ length: placeholderCount }).map((_, i) => (
-          <div
-            key={`placeholder-${i}`}
-            className="relative flex flex-col items-center justify-center gap-2 border border-dashed"
-            style={{ aspectRatio: "3/4", borderColor: `${color}35`, backgroundColor: `${color}08` }}
-          >
-            <ImageOff size={22} style={{ color: `${color}80` }} />
-            <span
-              className="text-[10px] tracking-[0.15em] uppercase text-center px-4"
-              style={{ color: `${color}80` }}
-            >
-              More photos coming soon
-            </span>
-          </div>
-        ))}
       </div>
 
       {/* Lightbox */}

@@ -687,8 +687,9 @@ export const threads: SutraThread[] = [
       "/images/threads/sangeet-dhara/photo-2.jpg",
       "/images/threads/sangeet-dhara/photo-3.jpg",
       "/images/threads/sangeet-dhara/photo-4.jpg",
+      "/images/threads/sangeet-dhara/photo-5.png",
     ],
-    imagePositions: ["center", "center", "center top", "center top"],
+    imagePositions: ["center", "center", "center top", "center top", "center"],
     description:
       "A vibrating thread of sound and silence — where mantra, music, and deep listening become living paths of transformation.",
     longDescription:
@@ -814,6 +815,7 @@ export const threads: SutraThread[] = [
         images: [
           "/images/threads/sangeet-dhara/people/prasana-ganesan/photo-1.jpeg",
           "/images/threads/sangeet-dhara/people/prasana-ganesan/photo-2.png",
+          "/images/threads/sangeet-dhara/people/prasana-ganesan/photo-3.png",
         ],
       },
     ],
