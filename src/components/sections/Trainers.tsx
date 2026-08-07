@@ -28,6 +28,19 @@ export default function Trainers() {
           subtitle="Weaving Bharat's timeless wisdom into contemporary life."
         />
 
+        {/* Why Sutradhara */}
+        <div className="max-w-3xl mb-16">
+          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-gym-red mb-3">
+            Why Sutradhara?
+          </p>
+          <p className="text-gym-muted text-sm leading-relaxed mb-4">
+            Every thread has a purpose. By itself, it is complete. Woven together, it becomes something far greater.
+          </p>
+          <p className="text-gym-muted text-sm leading-relaxed">
+            The Sutradhara was born from the vision of weaving together Bharat&apos;s classical traditions — not to redefine them, but to create a shared space where their authenticity can flourish. The Sutradhara brings together authentic teachers, practitioners, and seekers. Here, timeless wisdom is experienced, shared, and passed on with authenticity.
+          </p>
+        </div>
+
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
           {/* Trainer list (left) */}
           <div className="lg:col-span-2 flex flex-col gap-3">
@@ -148,19 +161,6 @@ export default function Trainers() {
                           </span>
                         ))}
                       </div>
-                    </div>
-
-                    {/* Why Sutradhara */}
-                    <div className="pt-8 border-t border-gym-border">
-                      <p className="text-xs font-semibold tracking-[0.2em] uppercase text-gym-red mb-3">
-                        Why Sutradhara?
-                      </p>
-                      <p className="text-gym-muted text-sm leading-relaxed mb-4">
-                        Every thread has a purpose. By itself, it is complete. Woven together, it becomes something far greater.
-                      </p>
-                      <p className="text-gym-muted text-sm leading-relaxed">
-                        The Sutradhara was born from the vision of weaving together Bharat&apos;s classical traditions — not to redefine them, but to create a shared space where their authenticity can flourish. The Sutradhara brings together authentic teachers, practitioners, and seekers. Here, timeless wisdom is experienced, shared, and passed on with authenticity.
-                      </p>
                     </div>
                   </div>
                 </div>

@@ -1021,7 +1021,7 @@ export const threads: SutraThread[] = [
     forWhom:
       "For those drawn to conscious living, sustainable style, and India's textile heritage — and for anyone curious about bringing more awareness into the everyday act of dressing. No prior experience required.",
     externalLinks: [
-      { label: "Visit Shoonya", url: "[SHOONYA_WEBSITE_LINK]" },
+      { label: "Visit Shoonya", url: "https://shoonyayogi.com/" },
     ],
   },
   {
